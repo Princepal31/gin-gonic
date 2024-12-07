@@ -1,4 +1,4 @@
-module gin/gonic
+module gin-gonic
 
 go 1.20
 
