@@ -4,8 +4,8 @@ RUN mkdir /build
 WORKDIR /build
 
 RUN export GO111MODULE=on
-RUN go get github.com/Princepal31/GinApiOnly
-RUN cd /build && git clone https://github.com/Princepal31/GinApiOnly
+RUN go get github.com/Princepal31/gin-gonic
+RUN cd /build && git clone https://github.com/Princepal31/gin-gonic
 
 RUN cd /build/Princepal31/GinApiOnly
 
